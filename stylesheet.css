@@ -1,0 +1,230 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.mainhead{
+    width: 85%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.logo{
+    width: 300px;
+}
+.menu{
+    padding-left: 1px;
+}
+.list{
+    display: inline;
+    margin: 0px 20px;
+}
+nav{
+    width: 85%;
+    height: 60px;
+    margin-left: 100px;
+  text-align: center;
+ 
+}
+.item-menu{
+    
+   display: inline-block;
+   margin: 0px 20px;
+
+}
+.links,.menu{
+    text-decoration: none;
+    color: black;
+}
+#adv{
+    margin: 1% 3% 0px 3%;
+}
+
+.ad-images{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 250px 250px;
+    gap: 15px;
+}
+.ad1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.adimg1{
+    width: 100%;
+    height: 500px;
+}
+.adimg{
+    width: 95%;
+    height: 250px;
+}
+.picks{
+    text-align: center;
+    margin-top: 60px;
+}
+.picks-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2% 3% 2px 0%;
+    
+}
+.p-items{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.picksimage{
+    width: 95%;
+    height: 150px;
+    border-radius: 60%;
+}
+.p-items:hover{
+    box-shadow: 5px 10px 10px 0px;
+}
+.picks-content>a{
+    text-decoration: none;
+    color: black;
+}
+.connected{
+    width: 90%;
+    height: 550px;
+    background-image: url(./images/connect.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% 3% 2px 3%;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.signup{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.signup>button{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    padding: 5px 5px;
+    border-radius: 8px;
+    border-color: white; 
+}
+.signup>button:hover{
+    background-color: white;
+    color: black;
+}
+
+.connect-head{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+}
+.form{
+    width: 90%;
+    height: auto;text-align: center;
+}
+.form>form{
+    height: auto;
+}
+.name{
+    height: 25px;
+    width: 210px;
+    border-radius: 8px;
+    padding: 2px 2px;
+    border: inset;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.mail{
+    height: 25px;
+    width: 350px;
+    border: inset;
+    border-radius: 8px;
+    padding: 2px 2px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(213, 126, 126);
+    height: 300px;
+    margin-top: 20px;
+
+}
+.icon-coll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.end-logo{
+    width: 300px;
+}
+.elogo{
+    width: 100%;
+
+}
+.elogo:hover{
+ color: white;
+}
+.contact{
+    width: 400px;
+    text-align: center;
+    margin-top: -40px;
+
+}
+h3{
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand{
+    font-size: 35px;
+    color: black;
+}
+.icon:hover{
+    background-color: white;
+}
+.visit{
+    width: 300px;
+    text-align: center;
+    margin-top: -20px;
+}
+.visit>p{
+    font-size: 20px;
+}
